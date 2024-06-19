@@ -10,6 +10,6 @@ cd .. &&
 rm -rf rvsummit_munich_2024_hackaton/ &&
 rm -rf codasip_urisc_v/work/* &&
 sed -i '44,46d' codasip_urisc_v/options.conf &&
-sed -i '21,34d' codasip_urisc_v/options.conf
+sed -i '21,34d' codasip_urisc_v/options.conf &&
 sed -i '1d' codasip_urisc_v/ip.conf && 
 sed -i '1iconfiguration = "32I"' codasip_urisc_v/ip.conf  
